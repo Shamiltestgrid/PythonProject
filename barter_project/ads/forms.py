@@ -1,5 +1,5 @@
 from django import forms
-from barter_project.ads.models import Ad
+from .models import Ad
 
 class AdForm(forms.ModelForm):
     class Meta:
